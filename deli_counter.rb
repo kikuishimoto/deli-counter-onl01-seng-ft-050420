@@ -24,4 +24,5 @@ def now_serving(line)
     line.pop
   else
     puts "there are no more orders"
+  end
 end

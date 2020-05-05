@@ -1,6 +1,6 @@
 katz_deli =[]
 def line(array)
-  if kat_deli >= 1
+  if array >= 1
     nuarray = []
     counter = 1
     array.each do |name|

@@ -13,8 +13,7 @@ def line(array)
   end
 end
 
-def take_a_number(line, new_name) 
+def take_a_number(line, new_name)
   line.push(new_name)
   puts "Welcome, #{new_name}. You are number #{line.length + 1} in line"
 end
-  

@@ -20,9 +20,9 @@ end
 
 def now_serving(line)
   if line.length > 0
-    put "#{line.first}, your order is ready"
+    puts "#{line.first}, your order is ready"
     line.pop
   else
-    puts "there are no more orders"
+    puts "There is nobody in line waiting to be served!"
   end
 end
